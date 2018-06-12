@@ -1,4 +1,4 @@
-## Machine Learning Final Project
+## Introductions
 
 Collaborators: David Wolff and Nicolas Finkelstein
 
