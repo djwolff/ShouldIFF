@@ -13,11 +13,13 @@ The task of this project is to provide a prediction to players who are consideri
 
 ### Approach
 
-The data we used for this project was acquired at http://www.kaggle.com/paololol/league-of-legends-ranked-matches/data. This data contained a lot of features for each game and player. To decide whether or not the team should surreneder, the features we used had numeric values in order to organize our data. From this, we compared different learners and decided to use Decision Trees (CART) as our primary learner.
+The data we used for this project was acquired [here](http://www.kaggle.com/paololol/league-of-legends-ranked-matches/data). This data contained a lot of features for each game and player. To decide whether or not the team should surreneder, the features we used had numeric values in order to organize our data. From this, we compared different learners and decided to use Decision Trees (CART) as our primary learner.
 
 ### Key Results
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+First, there were 6 learners that we were deciding on using. These learners are: Logistic Regression, Linear Discrimination Analysis, KN Neighbors Classifier, Decision Tree Classifier, Gaussian Naive Bayes, and Support Vector Machines. To decide which learner to use, only about 1000 samples were chosen from the entire data set to learn each type of learner. For each learner, we created learning curve graphs for both the validation set (which was 20% of the 1000 samples) and the training set. This can be seen below in the figures.
+
+![Logistic Regression](/images/LR_figure.png)
 
 ### Illustrations and Graphs
 
