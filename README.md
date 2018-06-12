@@ -8,12 +8,12 @@ Course: EECS 349 Machine Learning Northwestern University
 
 ### Task
 
-The task of this project is to provide a prediction to players who are considering on surrendering early in a League of Legends game. Deciding on whether or not to surrender early not only saves time for the players, but also alleviates stress that may occur during the game.
+The task of this project is to provide a prediction to players who are considering on surrendering early in a League of Legends game. League of Legends is a highly competitive, 5v5 online video game played by over 67 million people worldwide. Therefore, deciding on whether or not to surrender early not only saves time for the players, but also alleviates stress that may occur during the game since games can range anywhere from 30-50+ minutes.
 
 
 ### Approach
 
-The data we used for this project was acquired [here](http://www.kaggle.com/paololol/league-of-legends-ranked-matches/data). This data contained a lot of features for each game and player. To decide whether or not the team should surreneder, the features we used had numeric values in order to organize our data. From this, we compared different learners and decided to use Decision Trees (CART) as our primary learner.
+The data we used for this project was acquired [here](http://www.kaggle.com/paololol/league-of-legends-ranked-matches/data). The original dataset was divided up into 7 separate csv files consisting of both team-centered and individual player-centered data. Therefore, we cleaned the data and made edits to be able to merge the sets into one. Part of the process even involved creating a bag-of-words like attributes based on what champions were selected! To see the full data cleaning process, [click here](ADD_THE_HTML_FOR_CLEANING). Since we started off with approximately 240 attributes, we had to use our intuition based off our previous experiences with the game to narrow our list of attributes down to about 150 (138 being champions). This facilitated and sped up our training and testing. Once we had our data ready for model selection, we ran different learners and ultimately decided to use Decision Trees (CART) as our primary learner.
 
 ### Key Results
 

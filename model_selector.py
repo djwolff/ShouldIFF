@@ -23,7 +23,7 @@ from sklearn.svm import SVC
 from plotting import plot_learning_curve
 
 ## Get data
-dataset = pandas.read_csv('Data/finaldata1.csv')
+dataset = pandas.read_csv('data/seasons/season8.csv')
 
 # To determine how many samples we want.
 n = 1000
@@ -198,7 +198,7 @@ for name, model in models:
 # ourGame = numpy.array([dataset.values[len(dataset.values)-2,1:]]) # Choose a datavalue that we haven't seen.
 # result = estimator.predict(ourGame)
 #
-# if result[0] = 0:
+# if result[0] == 0:
 # 	print("If the game is prolonged, your team will lose. It is wise to surrender now.")
-# if result[0] = 1:
+# if result[0] == 1:
 # 	print("Don't give up! Your team is likely to win this!")
