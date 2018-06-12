@@ -114,7 +114,7 @@ header {
   overflow: hidden;
 }
 header .logo {
-  background: url('../i/logo-big.png') no-repeat center;
+  background: url('../i/FF.png') no-repeat center;
   width: 262px;
   height: 100px;
   display: inline-block;
@@ -122,7 +122,7 @@ header .logo {
 }
 @media all and (-o-min-device-pixel-ratio: 5/4), (-webkit-min-device-pixel-ratio: 1.25), (min-resolution: 120dpi) {
   header .logo {
-    background-image: url('../i/logo-big@2x.png');
+    background-image: url('../i/FF.png');
     -webkit-background-size: 262px auto;
     background-size: 262px auto;
   }
@@ -169,7 +169,7 @@ header .open-video a:hover {
   left: 0;
   top: 0;
   width: 100%;
-  background: url(../i/bg.jpg) no-repeat center 0px;
+  background: url(../i/background.png) no-repeat center 0px;
   -webkit-background-size: cover;
   background-size: cover;
   height: 700px;
@@ -288,7 +288,7 @@ nav a:hover {
   opacity: 0.8;
 }
 nav .logo {
-  background: url('../i/logo.png');
+  background: url('../i/FF.png');
   width: 74px;
   height: 28px;
   cursor: pointer;
@@ -297,7 +297,7 @@ nav .logo {
 }
 @media all and (-o-min-device-pixel-ratio: 5/4), (-webkit-min-device-pixel-ratio: 1.25), (min-resolution: 120dpi) {
   nav .logo {
-    background-image: url('../i/logo@2x.png');
+    background-image: url('../i/FF.png');
     -webkit-background-size: 74px auto;
     background-size: 74px auto;
   }

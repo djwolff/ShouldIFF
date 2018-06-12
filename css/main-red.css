@@ -169,7 +169,7 @@ header .open-video a:hover {
   left: 0;
   top: 0;
   width: 100%;
-  background: url(../i/bg.jpg) no-repeat center 0px;
+  background: url(../i/background.png) no-repeat center 0px;
   -webkit-background-size: cover;
   background-size: cover;
   height: 700px;
