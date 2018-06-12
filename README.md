@@ -24,7 +24,7 @@ First, there were 6 learners that we were deciding on using. These learners are:
 ![K Neighbors Classifier](/images/KNN_figure.png)
 ![Decision Tree Classifier](/images/CART_figure.png)
 ![Gaussian Naive Bayes](/images/NB_figure.png)
-![Support Vector Machines](/images/SVC_figure.png)
+![Support Vector Machines](/images/SVM_figure.png)
 
 ### Illustrations and Graphs
 
