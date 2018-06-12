@@ -17,7 +17,16 @@ The data we used for this project was acquired [here](http://www.kaggle.com/paol
 
 ### Key Results
 
-First, there were 6 learners that we were deciding on using. These learners are: Logistic Regression, Linear Discrimination Analysis, KN Neighbors Classifier, Decision Tree Classifier, Gaussian Naive Bayes, and Support Vector Machines. To decide which learner to use, only about 1000 samples were chosen from the entire data set to learn each type of learner. For each learner, we created learning curve graphs for both the validation set (which was 20% of the 1000 samples) and the training set. This can be seen below in the figures.
+First, there were 6 learners that we were deciding on using. These learners are: Logistic Regression, Linear Discriminant Analysis, KN Neighbors Classifier, Decision Tree Classifier, Gaussian Naive Bayes, and Support Vector Machines. To decide which learner to use, only about 1000 samples were chosen from the entire data set to learn each type of learner. For each learner, we created learning curve graphs for both the validation set (which was 20% of the 1000 samples) and the training set. This can be seen below in the Illustrations and Graphs section of this paper. 
+
+At first glance of all of these figures, the Logstic Regression (LR) and the Linear Disciminant Analysis (LDA) curves look way higher than any of the other figures. But we chose to use Decision Trees (CART) instead because we wanted to know which qualities of the beginning of the match will most likely determine the end result, win or lose. Considering that the accuracy for Decision Trees are also pretty accurate and nice, we chose to use CART. 
+
+Once we chose CART as our primary learner, we finalized that the most important features/factors that occur in the game that decides victory are which team has gotten first tower, first dragon, and Rift Herald. Thse findings will be explained in the Final Report.
+
+
+### Illustrations and Graphs
+
+In the figures, the shaded area around the plots are the first standard deviations and score is based on accuracy, where highest accuracy is 1 (100%).
 
 ![Logistic Regression](/images/LR_figure.png)
 ![Linear Discriminant Analysis](/images/LDA_figure.png)
@@ -26,9 +35,6 @@ First, there were 6 learners that we were deciding on using. These learners are:
 ![Gaussian Naive Bayes](/images/NB_figure.png)
 ![Support Vector Machines](/images/SVM_figure.png)
 
-### Illustrations and Graphs
-
-yo yo yo
 
 ### Final Report
 
