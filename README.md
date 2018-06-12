@@ -13,13 +13,13 @@ The task of this project is to provide a prediction to players who are consideri
 
 ### Approach
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/djwolff/ShouldIFF/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+The data we used for this project was acquired at https://www.kaggle.com/paololol/league-of-legends-ranked-matches/data. This data contained a lot of features for each game and player. To decide whether or not the team should surreneder, the features we used had numeric values in order to organize our data. From this, we compared different learners and decided to use Decision Trees (CART) as our primary learner.
 
 ### Key Results
 
 Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
 
-### Graphs and Captions
+### Illustrations and Graphs
 
 yo yo yo
 
