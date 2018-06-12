@@ -11,6 +11,7 @@ from sklearn.metrics import classification_report
 from sklearn.metrics import confusion_matrix
 from sklearn.metrics import accuracy_score
 from sklearn.linear_model import LogisticRegression
+from sklearn import tree
 from sklearn.tree import DecisionTreeClassifier
 from sklearn.neighbors import KNeighborsClassifier
 from sklearn.discriminant_analysis import LinearDiscriminantAnalysis
@@ -18,8 +19,10 @@ from sklearn.datasets import load_digits
 from sklearn.model_selection import ShuffleSplit
 from sklearn.naive_bayes import GaussianNB
 from sklearn.svm import SVC
-# from sklearn_pandas import DataFrameMapper, cross_val_score
-
+from io import StringIO
+import pydot
+import os
+os.environ["PATH"] += os.pathsep + 'C:/Program Files (x86)/Graphviz2.38/bin/'
 from plotting import plot_learning_curve
 
 ## Get data
@@ -299,6 +302,14 @@ common_node_id = numpy.arange(n_nodes)[common_nodes]
 print("\nThe following samples %s share the node %s in the tree"
       % (sample_ids, common_node_id))
 print("It is %s %% of all nodes." % (100 * len(common_node_id) / n_nodes,))
+
+
+######## Create a graph!!
+import graphviz
+dot_data = StringIO()
+tree.export_graphviz(estimator, out_file=dot_data, feature_names=dataset.columns.values[1:], class_names=["0", "1"], special_characters=True)
+graph = graphviz.Source(dot_data.getvalue())
+graph.render("tree", view=True)
 
 
 ######## Now to predict!!!
