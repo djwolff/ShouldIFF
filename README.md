@@ -8,26 +8,8 @@ Course: EECS 349 Machine Learning Northwestern University
 
 ### Task
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+The task of this project is to provide a prediction to players who are considering on surrendering early in a League of Legends game. Deciding on whether or not to surrender early not only saves time for the players, but also alleviates stress that may occur during the game.
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-- Bulleted
-- List
-
-. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
 ### Approach
 
