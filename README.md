@@ -13,7 +13,7 @@ The task of this project is to provide a prediction to players who are consideri
 
 ### Approach
 
-The data we used for this project was acquired at https://www.kaggle.com/paololol/league-of-legends-ranked-matches/data. This data contained a lot of features for each game and player. To decide whether or not the team should surreneder, the features we used had numeric values in order to organize our data. From this, we compared different learners and decided to use Decision Trees (CART) as our primary learner.
+The data we used for this project was acquired at http://www.kaggle.com/paololol/league-of-legends-ranked-matches/data. This data contained a lot of features for each game and player. To decide whether or not the team should surreneder, the features we used had numeric values in order to organize our data. From this, we compared different learners and decided to use Decision Trees (CART) as our primary learner.
 
 ### Key Results
 
