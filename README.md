@@ -7,7 +7,7 @@ Emails: davidwolff2020@u.northwestern.edu and nicolasfinkelstein2020@u.northwest
 Course: EECS 349 Machine Learning Northwestern University
 
 <p align="center">
-  <img src="/images/league_logo.png"/>
+  <img src="/images/league_logo.png" width=70%/>
 </p>
 
 ### Task
