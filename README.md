@@ -6,6 +6,8 @@ Emails: davidwolff2020@u.northwestern.edu and nicolasfinkelstein2020@u.northwest
 
 Course: EECS 349 Machine Learning Northwestern University
 
+![League Logo](/images/league_logo.png)
+
 ### Task
 
 The task of this project is to provide a prediction to players who are considering on surrendering early in a League of Legends game. League of Legends is a highly competitive, 5v5 online video game played by over 67 million people worldwide. Therefore, deciding on whether or not to surrender early (commonly known as forfeitting or FF'ing) not only saves time for the players, but also alleviates stress that may occur during the game since games can range anywhere from 30-50+ minutes.
