@@ -91,10 +91,11 @@ The diagram below shows the first 5 layers of our tree generated with 10000 samp
 
 If we look into deeper layers or at the entire generated decision tree, we can see that first tower and other champions also play a substantial role in the game outcome. For example, having a Yasuo on the team dropped the likelihood that the team would win. Additionally, we were surprised to find out that the side a team is on (denoted by teamid being 100 or 200) plays an insignificant role despite teams usually having a preference for one over the other. We were also surprised to find out that first blood (which team got the first champion kill) did not play a big role in determining what team would win. In the end, our model had achieved a 10-fold CV accuracy of 84.962% with 100,000 examples at 79.751% with 1000 examples. Unfortunately, creating the tree diagram for the 100,000 sample tree took too long so we are not able to show it.
 
-These results indicate that teams should not feel discouraged if they are the first to die or if they get the side they do not prefer. It also indicates that teams should focus on objectives such as inhibitors and barons since those are the attributes that greatly increase the likelihood a team wins. Our model would also encourage people to play supporting champions such as Orianna, Ahri, and Rakan while avoiding difficult to play champions such as Taliyah, Singed, and Ekko.
+These results indicate that teams should not feel discouraged if they are the first to die or if they get the side they do not prefer. It also indicates that teams should focus on objectives such as vision, inhibitors and barons since those are the attributes that greatly increase the likelihood a team wins. Our model would also encourage people to play supporting champions such as Orianna, Ahri, and Rakan while avoiding difficult to play champions such as Taliyah, Singed, and Ekko.
 
 Team Objectives to Focus
 
+![Wards](/images/ward.jpg)
 ![Inhib](/images/inhib.jpg)
 ![Baron](/images/baron.png)
 
