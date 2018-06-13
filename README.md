@@ -82,6 +82,11 @@ Originally, we thought there were roughly 80 attributes to consider over 360,000
 
 Our class output is "Win" that is 0 for defeat and 1 for victory.
 
+### Trial and Error
+After we have chosen our attributes, we decided to play with our Decision Tree learner. After numerous attempts to get the code to do what we wanted, we figured out how to construct a tree but in text form. This obviously hinders the visualibiity of our algorithm's output, and so we have worked to make a visual that can be seen in Key Findings and Results. When constructing our final output of accuracies, the final tree, and being able to make predictions, we would say the hardest part was making it so the data was usable. The data we have obtained was in csv format, which looks nice in excel but can be hard to work with in conjunction to SKlearn and numpy.
+
+In order to get and determine our final results, there was many trial and errors in getting what we wanted as an output. SKlearn and Graphviz were very helpful in helping us get to our goal, but there were many limitations in documentation and our data constantly exceeding the memory limit of our computers. This is why we chose to use only a portion of the data that we have for this project, but it is very possible to have a more complete model made for this data set.
+
 ### Key Findings and Results
 As explained in "Choosing the Best Model", Decision Trees was the learner we determined to be best fit. Once we chose CART/DT as our primary learner, we were able to determine of these which were the most impactful features on the outcome of the game by looking at what attributes cause the first few splits.
 
@@ -116,5 +121,9 @@ Champions to Avoid
 
 
 ### Reflection and Future Development
-Ultimately, not only did we learn more about the game, but we also learned about data cleaning, attribute selection, new python packages, and new learners such as SVM during the course of this project. It was very interesting to see how analyzing the criteria of the data is important when choosing a good learner (similar to the first exercises on the midterm and final exam). For future development on this project, we would like to see if we could taylor the learner/predictor to specific players. Since different players have different playstyles (League of Legends is a very complicated game...), only picking out games from one player and analyzing what factors of the game lead them to win most of the time could provide useful insight to improving their gameplay, hitting high ranks, and ideally landing a spot in the Pro-Scene.
+Ultimately, not only did we learn more about the game, but we also learned about data cleaning, attribute selection, new python packages, and new learners such as SVM during the course of this project. It was very interesting to see how analyzing the criteria of the data is important when choosing a good learner (similar to the first exercises on the midterm and final exam). 
+
+To divided the work that has been done in this project, we can say that we both have done equal amounts of work. Nicolas worked primarily on parsing through the dataset that can be used in a program as well as interpreting our resutls, while David created the python codes and visuals. The walls of division of the project were very transparent however, where David and Nico continued build on top of each other's work.
+
+For future development on this project, we would like to see if we could taylor the learner/predictor to specific players. Since different players have different playstyles (League of Legends is a very complicated game...), only picking out games from one player and analyzing what factors of the game lead them to win most of the time could provide useful insight to improving their gameplay, hitting high ranks, and ideally landing a spot in the Pro-Scene.
 
