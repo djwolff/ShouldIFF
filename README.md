@@ -6,9 +6,6 @@ Emails: davidwolff2020@u.northwestern.edu and nicolasfinkelstein2020@u.northwest
 
 Course: EECS 349 Machine Learning Northwestern University
 
-<p align="center">
-  <img src="/images/league_logo.png" width=50%/>
-</p>
 
 ### Task
 
@@ -17,7 +14,7 @@ The task of this project is to provide a prediction to players who are consideri
 
 ### Approach
 
-The data we used for this project was acquired [here](http://www.kaggle.com/paololol/league-of-legends-ranked-matches/data). The original dataset was divided up into 7 separate csv files consisting of both team-centered and individual player-centered data. Therefore, we cleaned the data and made edits to be able to merge the sets into one. Part of the process even involved creating a bag-of-words like attributes based on what champions were selected! To see the full data cleaning process, [click here](ADD_THE_HTML_FOR_CLEANING). Since we started off with approximately 240 attributes, we had to use our intuition based off our previous experiences with the game to narrow our list of attributes down to 144 (138 being champions). This facilitated and sped up our training and testing. Once we had our data ready for model selection, we ran different learners and ultimately decided to use Decision Trees (CART) as our primary learner.
+The data we used for this project was acquired [here](http://www.kaggle.com/paololol/league-of-legends-ranked-matches/data). The original dataset was divided up into 7 separate csv files consisting of both team-centered and individual player-centered data. Therefore, we cleaned the data and made edits to be able to merge the sets into one. Part of the process even involved creating a bag-of-words like attributes based on what champions were selected! To see the full data cleaning process, [click here](./datacleaning.html). Since we started off with approximately 240 attributes, we had to use our intuition based off our previous experiences with the game to narrow our list of attributes down to 144 (138 being champions). This facilitated and sped up our training and testing. Once we had our data ready for model selection, we ran different learners and ultimately decided to use Decision Trees (CART) as our primary learner.
 
 ### Choosing a Best Model
 
