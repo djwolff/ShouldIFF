@@ -26,7 +26,7 @@ from plotting import plot_learning_curve
 dataset = pandas.read_csv('data/seasons/season8.csv')
 
 # To determine how many samples we want.
-n = 1000
+n = 100000
 
 # X = data and y = target
 array = dataset.values
@@ -47,12 +47,12 @@ X_train, X_validation, Y_train, Y_validation = model_selection.train_test_split(
 
 ## Create accuracies for the models.
 models = []
-models.append(('LR', LogisticRegression()))
-models.append(('LDA', LinearDiscriminantAnalysis()))
+# models.append(('LR', LogisticRegression()))
+# models.append(('LDA', LinearDiscriminantAnalysis()))
 models.append(('KNN', KNeighborsClassifier()))
-models.append(('CART', DecisionTreeClassifier()))
-models.append(('NB', GaussianNB()))
-models.append(('SVM', SVC()))
+# models.append(('CART', DecisionTreeClassifier()))
+# models.append(('NB', GaussianNB()))
+# models.append(('SVM', SVC()))
 
 # evaluate each model in turn
 results = []

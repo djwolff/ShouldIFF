@@ -29,7 +29,7 @@ from plotting import plot_learning_curve
 dataset = pandas.read_csv('data/seasons/season8.csv')
 
 # To determine how many samples we want.
-n = 1000
+n = 100000
 
 # X = data and y = target
 array = dataset.values
@@ -238,23 +238,23 @@ attribute_dict = {
 }
 
 
-print("The binary tree structure has %s nodes and has "
-      "the following tree structure:"
-      % n_nodes)
-for i in range(n_nodes):
-    if is_leaves[i]:
-        print("%snode=%s leaf node." % (node_depth[i] * "\t", i))
-    else:
-        print("%snode=%s test node: go to node %s if %s <= %s else to "
-              "node %s."
-              % (node_depth[i] * "\t",
-                 i,
-                 children_left[i],
-                 attribute_dict[str(feature[i])],
-                 threshold[i],
-                 children_right[i],
-                 ))
-print()
+# print("The binary tree structure has %s nodes and has "
+#       "the following tree structure:"
+#       % n_nodes)
+# for i in range(n_nodes):
+#     if is_leaves[i]:
+#         print("%snode=%s leaf node." % (node_depth[i] * "\t", i))
+#     else:
+#         print("%snode=%s test node: go to node %s if %s <= %s else to "
+#               "node %s."
+#               % (node_depth[i] * "\t",
+#                  i,
+#                  children_left[i],
+#                  attribute_dict[str(feature[i])],
+#                  threshold[i],
+#                  children_right[i],
+#                  ))
+# print()
 
 # First let's retrieve the decision path of each sample. The decision_path
 # method allows to retrieve the node indicator functions. A non zero element of
