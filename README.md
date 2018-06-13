@@ -96,10 +96,15 @@ If we look into deeper layers or at the entire generated decision tree, we can s
 
 These results indicate that teams should not feel discouraged if they are the first to die or if they get the side they do not prefer. It also indicates that teams should focus on objectives such as inhibitors and barons since those are the attributes that greatly increase the likelihood a team wins. Our model would also encourage people to play supporting champions such as Orianna, Ahri, and Rakan while avoiding difficult to play champions such as Taliyah, Singed, and Ekko.
 
-####Good
-![Orianna](/images/orianna.png) ![Singed](/images/singed.png)
+##Good
+![Orianna](/images/orianna.png)
 ![Ahri](/images/ahri.png)
+![Rakan](/images/Rakan.png)
+
+##Avoid
+![Taliyah](/images/taliyah.png)
 ![Singed](/images/singed.png)
+![Ekko](/images/ekko.png)
 
 Ultimately, not only did we learn more about the game, but we also learned about data cleaning, attribute selection, new python packages, and new learners such as SVM during the course of this project. It was very interesting to see how analyzing the criteria of the data is important when choosing a good learner (similar to the first exercises on the midterm and final exam). For future development on this project, we would like to see if we could taylor the learner/predictor to specific players. Since different players have different playstyles (League of Legends is a very complicated game...), only picking out games from one player and analyzing what factors of the game lead them to win most of the time could provide useful insight to improving their gameplay, hitting high ranks, and ideally landing a spot in the Pro-Scene.
 
