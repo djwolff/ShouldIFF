@@ -88,7 +88,7 @@ The diagram below shows the first 3 layers of our tree. The most important attri
 
 ![3 Depth Tree](/3DepthTree.pdf)
 
-If we look into deeper layers or at the entire generated decision tree, we can see that first tower, and whether a team has Braum also play a substantial role in the game outcome. We were surprised to find out that the side a team is on (denoted by teamid being 100 or 200) plays an insignificant role despite teams usually having a preference for one over the other. We were also surprised to find out that first blood (which team got the first champion kill) did not play a big role in determining what team would win. In the end, our model had achieved a 10-fold accuracy of 79.751%
+If we look into deeper layers or at the entire generated decision tree, we can see that first tower, and whether a team has Braum also play a substantial role in the game outcome. We were surprised to find out that the side a team is on (denoted by teamid being 100 or 200) plays an insignificant role despite teams usually having a preference for one over the other. We were also surprised to find out that first blood (which team got the first champion kill) did not play a big role in determining what team would win. In the end, our model had achieved a 10-fold CV accuracy of 79.751%
 
 ![3 Depth Tree](/3DepthTree.pdf)
 
