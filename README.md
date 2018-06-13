@@ -90,7 +90,7 @@ The diagram below shows the first 3 layers of our tree. The most important attri
 
 If we look into deeper layers or at the entire generated decision tree, we can see that first tower, and whether a team has Braum also play a substantial role in the game outcome. We were surprised to find out that the side a team is on (denoted by teamid being 100 or 200) plays an insignificant role despite teams usually having a preference for one over the other. We were also surprised to find out that first blood (which team got the first champion kill) did not play a big role in determining what team would win. In the end, our model had achieved a 10-fold CV accuracy of 79.751%
 
-![3 Depth Tree](/images/3DepthTree.png)
+![3 Depth Tree](/images/FullDepthTree.png)
 
 These results indicate that teams should not feel discouraged if they are the first to die or if they get the side they do not prefer. It also indicates that teams should focus on objectives such as inhibitors and barons since those are the attributes that greatly increase the likelihood a team wins. Our model would also encourage people to play champions such as Braum, Rakan, Urgot, and Morgana while avoiding champions such as Yasuo, Shen, and Hecarim.
 
