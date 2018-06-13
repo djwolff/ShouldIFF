@@ -307,7 +307,7 @@ print("It is %s %% of all nodes." % (100 * len(common_node_id) / n_nodes,))
 ######## Create a graph!!
 import graphviz
 dot_data = StringIO()
-tree.export_graphviz(estimator, out_file=dot_data, feature_names=dataset.columns.values[1:], class_names=["0", "1"], special_characters=True, max_depth=4)
+tree.export_graphviz(estimator, out_file=dot_data, feature_names=dataset.columns.values[1:], class_names=["0", "1"], special_characters=True, max_depth=5)
 graph = graphviz.Source(dot_data.getvalue())
 graph.render("tree", view=True)
 
