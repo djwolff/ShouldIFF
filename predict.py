@@ -29,7 +29,7 @@ from plotting import plot_learning_curve
 dataset = pandas.read_csv('data/seasons/season8.csv')
 
 # To determine how many samples we want.
-n = 100000
+n = 10000
 
 # X = data and y = target
 array = dataset.values
