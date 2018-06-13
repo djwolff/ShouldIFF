@@ -96,12 +96,16 @@ If we look into deeper layers or at the entire generated decision tree, we can s
 
 These results indicate that teams should not feel discouraged if they are the first to die or if they get the side they do not prefer. It also indicates that teams should focus on objectives such as inhibitors and barons since those are the attributes that greatly increase the likelihood a team wins. Our model would also encourage people to play supporting champions such as Orianna, Ahri, and Rakan while avoiding difficult to play champions such as Taliyah, Singed, and Ekko.
 
-##Good
+Objectives to Focus
+![Inhib](/images/inhib.jpeg)
+![Baron](/images/baron.png)
+
+Champions to Pick
 ![Orianna](/images/orianna.png)
 ![Ahri](/images/ahri.png)
 ![Rakan](/images/Rakan.png)
 
-##Avoid
+Champions to Avoid
 ![Taliyah](/images/taliyah.png)
 ![Singed](/images/singed.png)
 ![Ekko](/images/ekko.png)
